@@ -1,0 +1,27 @@
+main {
+  width: 70%;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.keywords {
+  border-bottom: 2px solid black;
+  padding: 20px 0px;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.page-title {
+  font-size: 100px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: space-between;
+}

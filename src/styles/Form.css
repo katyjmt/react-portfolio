@@ -1,0 +1,43 @@
+.contact-form {
+  width: 50%;
+}
+
+/* Style inputs */
+input[type=text], input[type=email], textarea {
+  width: 100%;
+  padding: 10px 20px;
+  margin: 8px 0px 30px 0px;
+  display: inline-block;
+  border: 2px solid black;
+  border-radius: 5px;
+  background-color: #d9d9d9;
+  box-sizing: border-box;
+  font-family: "katarine-web", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+}
+
+.question-field input[type=text]{
+  height: 200px;
+}
+
+/* Style the submit button */
+input[type=submit] {
+  width: 40%;
+  background-color: black;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "katarine-web", system-ui, Avenir, Helvetica, Arial, sans-serif;
+  letter-spacing: 0.05em;
+  font-size: 20px;
+}
+
+/* Add a background color to the submit button on mouse-over */
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+}

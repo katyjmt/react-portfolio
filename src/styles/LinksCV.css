@@ -1,0 +1,18 @@
+.icon {
+  width: 52px;
+  height: 52px;
+}
+
+.links-cv-container {
+  display: flex;
+  justify-content: center;
+  width: 50%;
+}
+
+.cv-button {
+  height: 52px;
+}
+
+.contact-button {
+  margin: 0px 30px 0px 30px;
+}

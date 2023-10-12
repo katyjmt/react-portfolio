@@ -1,0 +1,18 @@
+/* Container for all central content */
+.portfolio-container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 70%;
+};
+
+.portfolio-card {
+  flex-basis: 30%;
+  height: 200px;
+};
+
+.portfolio-github-link img {
+  width: 30px !important;
+  height: 30px !important;
+}

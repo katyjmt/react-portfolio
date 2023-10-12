@@ -1,6 +1,6 @@
 import githubImg from "../assets/github.png";
 import projectData from "../data/portfolioData";
-import '../styles/Portfolio.css';
+import "../styles/Portfolio.css";
 
 function PortfolioCard({ project }) {
   let githubIcon;
@@ -13,6 +13,8 @@ function PortfolioCard({ project }) {
           target="_blank"
           alt={`Link to ${project.name} Github`}
           className="portfolio-github-img"
+          width='40px'
+          height='40px'
         />
       </a>
     );
@@ -23,13 +25,31 @@ function PortfolioCard({ project }) {
       <div
         className="portfolio-card"
         style={{
+          width: '30%',
+          height: '250px',
           backgroundImage: `url(${project.imageRef})`,
-          backgroundSize: "contain",
-          backgroundRepeat: "no-repeat",
+          backgroundSize: 'cover',
+          backgroundRepeat: 'none',
+          backgroundPosition: 'center',
+          border: '2px solid black',
+          borderRadius: '5px',
+          margin: '15px 15px',
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'flex-end',
         }}
       >
-        <div className="portfolio-title">{project.name}</div>
-        <div className="portfolio-github-icon">{githubIcon}</div>
+        <div className="portfolio-title"
+          style={{
+            backgroundColor: 'black',
+            color: 'white',
+            padding: '8px 10px',
+            borderRadius: '5px 5px 0px 0px',
+            width: '60%',
+            height: '25px',
+          }}
+        >{project.name}</div>
+        {githubIcon} 
       </div>
     </>
   );

@@ -6,9 +6,9 @@ export default function Navigation() {
       <div className='nav-container'>
         <div className='nav'>
           <ul>
-            <li>About</li>
-            <li>Portfolio</li>
-            <li>Contact / CV</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Contact / CV</a></li>
           </ul>
         </div>
       </div>

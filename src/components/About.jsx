@@ -1,4 +1,5 @@
 import '../styles/Intro.css'
+import Katy from '../assets/katy-profile.png'
 
 export default function About() {
   return (
@@ -32,6 +33,7 @@ export default function About() {
           This website is a place for me to document my personal projects and
           explorations. Thanks for visiting!
         </p>
+        <img className="katy-image" src={Katy} alt="Photo of Katy" />
       </div>
     </>
   );

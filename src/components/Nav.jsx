@@ -1,28 +1,38 @@
-import '../styles/Nav.css'
+import '../styles/Nav.css';
+import { Link, useLocation } from 'react-router-dom';
 
-export default function Navigation( {currentPage, handlePageChange} ) {
+export default function Navigation() {
+
+  const currentPage = useLocation().pathname;
+
   return (
     <>
       <div className='nav-container'>
         <div className='nav'>
-          <ul>
-            <li>
-              <a 
-                href="#home"
-                onClick={() => handlePageChange('Home')}
-                className={currentPage === 'Home' ? 'nav-link active' : 'nav-link'}>Home</a>
+          <ul className="nav nav-tabs">
+            <li className="nav-item">
+              <Link
+                to="/"
+                className={currentPage === '/' ? 'nav-link active' : 'nav-link'}
+              >
+                Home
+              </Link>
             </li>
-            <li>
-              <a 
-                href="#portfolio"
-                onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portfolio' ? 'nav-link active' : 'nav-link'}>Portfolio</a>
+            <li className="nav-item">
+              <Link
+                to="/Portfolio"
+                className={currentPage === '/Portfolio' ? 'nav-link active' : 'nav-link'}
+              >
+                Portfolio
+              </Link>
             </li>
-            <li>
-              <a 
-                href="#contact"
-                onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}>Contact / CV</a>
+            <li className="nav-item">
+              <Link
+                to="/Contact"
+                className={currentPage === '/Contact' ? 'nav-link active' : 'nav-link'}
+              >
+                Contact / CV
+              </Link>
             </li>
           </ul>
         </div>

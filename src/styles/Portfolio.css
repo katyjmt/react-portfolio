@@ -2,10 +2,7 @@
 .portfolio-container {
   display: flex;
   justify-content: space-around;
+  align-items: center;
   flex-wrap: wrap;
   margin: 40px 0px;
 };
-
-.portfolio-title {
-  background-color: black;
-}

@@ -1,9 +1,17 @@
-import '../styles/Intro.css'
-import Katy from '../assets/katy-profile.png'
+import '../../styles/Intro.css'
+import Katy from '../../assets/katy-profile.png'
 
-export default function About() {
+export default function Home() {
   return (
     <>
+      <div className="keywords centered">
+          <span className='keyword-words'>Developer</span>
+          <span className='keyword-words'>|</span>
+          <span className='keyword-words'>Designer</span>
+          <span className='keyword-words'>|</span>
+          <span className='keyword-words'>Data Nerd</span>
+      </div>
+      <div className="page-title">Katy Thompson</div>
       <div className="intro-container">
         <p className="intro">
           Hi, I&apos;m Katy! I&apos;ve been working in the tech industry for 7

@@ -16,10 +16,6 @@ input[type=text], input[type=email], textarea {
   letter-spacing: 0.05em;
 }
 
-.question-field input[type=text]{
-  height: 200px;
-}
-
 /* Style the submit button */
 input[type=submit] {
   width: 40%;

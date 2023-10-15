@@ -10,7 +10,7 @@ export default function Form() {
           <label htmlFor="email">Email:</label>
           <input type="email" name="email" id="form-email"/>
           <label htmlFor="message">Question:</label>
-          <textarea name="message" id="message" cols="30" rows="10"></textarea>
+          <textarea name="message" id="message" cols="30" rows="8"></textarea>
           <input type="submit" value="SUBMIT" />
         </form>
       </div>

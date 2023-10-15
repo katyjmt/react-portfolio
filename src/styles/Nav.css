@@ -20,3 +20,7 @@ li {
   list-style: none;
   padding: 5px 15px 5px 15px;
 }
+
+.active {
+  border-bottom: 1px solid white;
+}

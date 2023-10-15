@@ -1,46 +1,35 @@
+import { useState } from 'react'
 import './styles/App.css'
-import Portfolio from './components/Portfolio'
-import About from './components/About'
-import PageTitle from './components/PageTitle'
+import Home from './components/pages/Home'
+import Portfolio from './components/pages/Portfolio'
+import Contact from './components/pages/Contact'
 import Nav from './components/Nav'
-import Underline from './components/Underline'
-import Form from './components/Form'
-import LinksCV from './components/LinksCV'
-import NextPage from './components/NextPage'
+import Footer from './components/Footer'
 
-function App() {
+export default function App() {
+  const [currentPage, setCurrentPage] = useState('Home');
+
+  const renderPage = () => {
+    if (currentPage === 'Home') {
+      return <Home />;
+    }
+    if (currentPage === 'Portfolio') {
+      return <Portfolio />;
+    }
+    return <Contact />;
+  }
+
+  const handlePageChange = (page) => setCurrentPage(page);
 
   return (
     <>
       <nav>
-        <Nav />
+        <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
       </nav>
-      <main>
-
-        <div className="keywords centered">
-          <span className='keyword-words'>Developer</span>
-          <span className='keyword-words'>|</span>
-          <span className='keyword-words'>Designer</span>
-          <span className='keyword-words'>|</span>
-          <span className='keyword-words'>Data Nerd</span>
-        </div>
-        <PageTitle />
-        <About />
-        <NextPage />
-        <PageTitle />
-        <Underline />
-        <Portfolio />
-        <NextPage />
-        <PageTitle />
-        <Underline />
-        <p>Have a question? Get in contact via the form below.</p>
-        <div className='contact-page'>
-        <Form />
-        <LinksCV />
-        </div>
-      </main>
+      <main>{renderPage()}</main>
+      <footer>
+        <Footer />
+      </footer>
     </>
   );
 }
-
-export default App

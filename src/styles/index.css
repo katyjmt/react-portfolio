@@ -31,7 +31,5 @@ a {
   color: white;
   text-decoration: inherit;
 }
-a:hover {
-  border-bottom: 2px solid white;
-}
+
 

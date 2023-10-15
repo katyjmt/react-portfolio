@@ -19,7 +19,7 @@ main {
 }
 
 .page-title {
-  font-size: 100px;
+  font-size: 90px;
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
@@ -28,4 +28,29 @@ main {
 .contact-page {
   display: flex;
   justify-content: space-between;
+}
+
+.underline {
+  border-bottom: 2px solid black;
+}
+
+footer {
+  color: black;
+  background-color: white;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.footer-icon {
+  width: 25px;
+  height: 25px;
+}
+
+.footer-items {
+  padding: 0px 10px;
 }

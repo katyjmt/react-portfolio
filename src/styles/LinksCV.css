@@ -11,7 +11,16 @@
 
 .cv-button {
   height: 52px;
-  padding: 0px 40px;
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.cv-button a {
+  padding: 0px 30px;
 }
 
 .contact-button {

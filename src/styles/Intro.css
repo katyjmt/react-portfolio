@@ -16,3 +16,31 @@
   right: 40px;
   top: -60px;
 }
+
+@media screen and (max-width: 1500px) {
+  .katy-image {
+    width: 150px;
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 1220px) {
+  .intro {
+    width: 70%;
+  }
+}
+
+
+@media screen and (max-width: 1000px) {
+  .intro {
+    width: 65%;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .intro {
+    width: 60%;
+  }
+}
+

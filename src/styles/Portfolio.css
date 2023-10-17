@@ -5,5 +5,45 @@
   align-items: center;
   flex-wrap: wrap;
   margin: 40px 0px;
-};
+}
+
+.portfolio-title {
+  background-color: black;
+  color: white;
+  padding: 8px 10px;
+  width: 100%;
+  position: relative;
+}
+
+.portfolio-card {
+  width: 30%;
+  height: 220px;
+  background-size: cover;
+  background-repeat: none;
+  background-position: center;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin: 15px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+@media screen and (max-width: 1458px) {
+  .portfolio-card {
+    margin: 15px 10px;
+  }
+}
+
+@media screen and (max-width: 1028px) {
+  .portfolio-card {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 686px) {
+  .portfolio-card {
+    width: 95%;
+  }
+}
 

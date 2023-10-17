@@ -1,5 +1,5 @@
 .contact-form {
-  width: 50%;
+  width: 90%;
 }
 
 /* Style inputs */
@@ -36,4 +36,10 @@ input[type=submit]:hover {
   background-color: white;
   color: black;
   border: 2px solid black;
+}
+
+@media screen and (max-width: 900px) {
+  .contact-form {
+    width: 100%;
+  }
 }

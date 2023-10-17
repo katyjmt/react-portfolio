@@ -4,6 +4,7 @@ export default function Form() {
   return(
     <>
       <div className='contact-form'>
+      <p>Have a question? Get in contact via the form below.</p>
         <form>
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" id="form-name" required/>

@@ -33,29 +33,11 @@ function PortfolioCard({ project }) {
         rel="noreferrer"
         className="portfolio-card"
         style={{
-          width: "30%",
-          height: "220px",
           backgroundImage: `url(${project.imageRef})`,
-          backgroundSize: "cover",
-          backgroundRepeat: "none",
-          backgroundPosition: "center",
-          border: "2px solid black",
-          borderRadius: "5px",
-          margin: "15px 15px",
-          display: "flex",
-          justifyContent: "space-between",
-          alignItems: "flex-end",
         }}
       >
         <div
           className="portfolio-title"
-          style={{
-            backgroundColor: "black",
-            color: "white",
-            padding: "8px 10px",
-            width: "100%",
-            position: "relative",
-          }}
         >
           <a href={project.link} target="_blank" rel="noreferrer">
             {project.name}

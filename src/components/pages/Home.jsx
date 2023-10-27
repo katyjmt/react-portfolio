@@ -21,7 +21,7 @@ export default function Home() {
           <br />
           <br />
           I love creating beautiful and useful things, and get deep satisfaction
-          out of understanding things from first principles. Over the
+          out of understanding how things are made from first principles. Over the
           years I&apos;ve done self-driven deep-dives into front-end coding,
           SQL, typeface design, book binding, sewing and pattern making, how to
           fit-out a camper van, and lots of other creative and analytical
@@ -29,7 +29,7 @@ export default function Home() {
           <br />
           <br />
           Over my professional life, I&apos;ve collaborated closely with
-          talented teams of developers and designers on website and microsite
+          talented teams of developers, designers and producers on website and microsite
           projects for renowned brands like Sydney Symphony Orchestra, Bega,
           Mars, Fitness First, Warner Music, and more. The projects I&apos;ve
           worked on, and the people I&apos;ve worked with have taught me a lot

@@ -5,7 +5,8 @@ export default function Form() {
     <>
       <div className='contact-form'>
       <p>Have a question? Get in contact via the form below.</p>
-        <form>
+        <form data-netlify="true" name="contact" netlify-honeypot="bot-field">
+          <input type="hidden" name="bot-field" />
           <label htmlFor="name">Name:</label>
           <input type="text" name="name" id="form-name" required/>
           <label htmlFor="email">Email:</label>

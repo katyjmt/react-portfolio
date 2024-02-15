@@ -13,7 +13,7 @@ const projectData = [
   //   github: "https://github.com/katyjmt/week1-challenge-horiseon",
   // },
   { name: "Planner Page Builder", imageRef: psImg, link: "https://pure-reef-32089-709794f662d7.herokuapp.com/", github: "https://github.com/katyjmt/ps-lite" },
-  { name: "Memory Game", imageRef: memoryGame, link: "#https://snazzy-elf-f77534.netlify.app/", github: "https://github.com/katyjmt/memory-game" },
+  { name: "Memory Game", imageRef: memoryGame, link: "https://snazzy-elf-f77534.netlify.app/", github: "https://github.com/katyjmt/memory-game" },
   {
     name: "Evie Sans Font",
     imageRef: evieImg,

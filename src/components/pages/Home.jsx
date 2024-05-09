@@ -5,17 +5,17 @@ export default function Home() {
   return (
     <>
       <div className="keywords centered">
-        <span className="keyword-words">Developer</span>
+        <span className="keyword-words">Full-Stack Development</span>
         <span className="keyword-words">|</span>
-        <span className="keyword-words">Designer</span>
+        <span className="keyword-words">UX / UI Design</span>
         <span className="keyword-words">|</span>
-        <span className="keyword-words">Data Nerd</span>
+        <span className="keyword-words">Analytics</span>
       </div>
       <div className="page-title">Katy Thompson</div>
       <div className="intro-container">
         <p className="intro">
           Hi, I&apos;m Katy! I&apos;ve been working in the tech industry for just over 7
-          years. Over this time, I&apos;ve worn multiple hats as a digital
+          years, wearing multiple hats as a digital
           producer, front-end developer, UX consultant, designer, strategist,
           data analyst and account manager.
           <br />
@@ -25,7 +25,7 @@ export default function Home() {
           the years I&apos;ve done self-driven deep-dives into coding,
           SQL, typeface design, book binding, sewing and pattern making, how to
           fit-out a camper van, and lots of other creative and analytical
-          pursuits. I recently completed a 6-month full-stack coding bootcamp, graduating with a 94% average.
+          pursuits. I recently completed a 6-month full-stack coding bootcamp at Monash University, graduating with a 94% average.
           <br />
           <br />
           Over my professional life, I&apos;ve collaborated closely with
